@@ -1,0 +1,27 @@
+﻿<section>
+    <nav class="navbar-container-Account">
+        <ul>
+            <li>
+                <a asp-area="ClienteArea" asp-controller="Account" asp-action="Registrar">
+                    <span class="material-symbols-outlined">
+                        person_add
+                    </span>Registrar
+                </a>
+            </li>
+            <li>
+                <a asp-area="ClienteArea" asp-controller="Account" asp-action="Login">
+                    <span class="material-symbols-outlined">
+                        admin_panel_settings
+                    </span>Iniciar Sesión
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <aside class="navbar-container-AccesoEmpresa">
+        <a asp-area="ClienteArea" asp-controller="Account" asp-action="LoginEmpresa">
+            <span class="material-symbols-outlined">
+                engineering
+            </span>Acceso Empresa
+        </a>
+    </aside>
+</section>
